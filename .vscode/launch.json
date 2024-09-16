@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug detect.py",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "detect.py",
+      "console": "integratedTerminal",
+      "stopOnEntry": false,
+      "justMyCode": false,
+      "env": { "PYTHONASYNCIODEBUG": "1" }
+    }
+  ]
+}
